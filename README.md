@@ -1,4 +1,4 @@
-# Small C-like Programming Language Built from Scrach
+# Small C-like Programming Language Built from Scratch
 Small C-like Programming Language built from scratch. This programming language is capable of evaluating expressions, functions, loops and logic statements. The languege has been defined by BNF grammar and is able to evalueate resluts of experssions and functions. It is also able to highlight synatax errors and show the output of expressions. The evaluation engine has been built which is capable of evaluating the results of expressions, statements, loops and etc as shown in BNF rules. 
 A minimal UI has been developed to execute the codes, show outputs and highlight the syntax errors. 
 
