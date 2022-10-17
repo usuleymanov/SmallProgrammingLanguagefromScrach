@@ -9,3 +9,11 @@ A minimal UI has been developed to execute the codes, show outputs and highlight
 ![image](https://user-images.githubusercontent.com/29092927/196138525-5315c5a6-62f1-4d35-a612-6ac4faeaa04f.png)
 
 
+- **Lexer class** - tokenizes the given input
+- **Parser class** - constructs AST
+- **Evaluate class** - calculates the values of expressions and stores the results in State class  when it encounters assignment statement. Uses Scope class to push and pop values from State.
+- **Scope class** - used by Evaluate class for handling scope of variables
+- **State class** - stores the identifier and value of given variable. For every variable we have stack of values because of scoping. 
+- **TypeException class**- thrown when program has type error.
+- **SyntaxErrorException** - thrown when program has syntax error.
+     
